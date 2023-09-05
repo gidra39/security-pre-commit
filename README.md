@@ -21,7 +21,7 @@ python3 pre-commit.py
 ```
 Or you can install it with one command:
 ```shell
-curl -fsL https://raw.githubusercontent.com/vitalibit/security-pre-commit/main/pre-commit.py | python3 -
+curl -fsL https://raw.githubusercontent.com/gidra39/security-pre-commit/main/pre-commit.py | python3 -
 ```
 ## Usage
 
