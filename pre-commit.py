@@ -50,7 +50,7 @@ def enable_gitleaks_hook():
     if enable:
         hooks_dir = os.path.join(".git", "hooks")
         pre_commit_script = os.path.join(hooks_dir, "pre-commit")
-        script_path = os.path.abspath(__file__)
+        script_path = os.path.abspath("pre-commit.py")
         
         if not os.path.exists(pre_commit_script):
             shutil.copy(script_path, pre_commit_script)
